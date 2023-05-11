@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public interface Drawable {
+public interface Drawable
+{  public default void draw()
+    {
+    System.out.println("I can be drawn");
+    }
 }

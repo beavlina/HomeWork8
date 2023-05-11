@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Shape {
+public abstract class Shape implements Drawable
+{
+    public abstract void printName();
+
 }
