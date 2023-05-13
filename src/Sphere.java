@@ -13,7 +13,7 @@ public class Sphere extends ThreeDimensionalShape
     @Override
     public void printName()
     {
-        System.out.print("The name of this shape is Sphere");
+        System.out.println("The name of this shape is Sphere");
     }
 
     @Override

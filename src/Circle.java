@@ -13,7 +13,7 @@ public class Circle extends TwoDimensionalShape
     @Override
     public void printName()
     {
-    System.out.print("The name of this shape is Circle");
+        System.out.println("The name of this shape is Circle");
     }
 
     @Override
